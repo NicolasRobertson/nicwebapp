@@ -1,4 +1,4 @@
-var mymap = L.map('mymapid').setView([-95.913889, 45.586111], 13);
+var mymap = L.map('mymapid').setView([45.586111,-95.913889], 13);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoicm9iZTE2MDYiLCJhIjoiY2tuNmtjZ3Z4MGVycjJubjEyczBhZzR0ZSJ9.J6yOKiB__265dNCxEQN-yQ', {
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -54,7 +54,7 @@ var lineStyle={
   "color":"#0000FF",
 }
 
-varfillStyle={
+var fillStyle={
   "weight":5,
   "color":"#FFFFFF"
 }
